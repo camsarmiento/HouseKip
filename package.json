@@ -9,6 +9,8 @@
   "author": "Camilo Mancilla",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^4.1.0",
+    "imagemin": "^5.3.1"
   }
 }
