@@ -1,0 +1,14 @@
+{
+  "name": "housekip",
+  "version": "1.0.0",
+  "description": "Taking care of your house bills",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Camilo Mancilla",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
