@@ -9,6 +9,7 @@
   "author": "Camilo Mancilla",
   "license": "ISC",
   "devDependencies": {
+    "browser-sync": "^2.24.5",
     "gulp": "^3.9.1",
     "gulp-imagemin": "^4.1.0",
     "gulp-sass": "^4.0.1",

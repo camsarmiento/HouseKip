@@ -34,9 +34,11 @@ gulp.task('sass',function(){
 });
 
 
+gulp.task('default',['hmtl','imageMin','jsMin','sass']);
 
-
-
-gulp.task('default', function(){
-return console.log('funciona');
+gulp.task('watch', function(){
+	gulp.watch('src/*.html',['html']);
+	gulp.watch('src/img/*',['imageMin']);
+	gulp.watch('src/js/*.js',['jsMin']);
+	gulp.watch('src/sass/*.scss',['sass']);
 });
