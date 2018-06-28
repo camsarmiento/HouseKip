@@ -1,8 +1,9 @@
 const gulp =  require ('gulp');
 const imagemin = require('gulp-imagemin');
-var uglify = require('gulp-uglify');
-var pump = require('pump');
-var sass = require ('gulp-sass');
+const uglify = require('gulp-uglify');
+const pump = require('pump');
+const sass = require ('gulp-sass');
+const browserSync = require("browser-sync").create();
 
 //Move html file to build
 gulp.task('html',function(){
@@ -34,7 +35,7 @@ gulp.task('sass',function(){
 });
 
 
-gulp.task('default',['hmtl','imageMin','jsMin','sass']);
+gulp.task('default',['html','imageMin','jsMin','sass']);
 
 gulp.task('watch', function(){
 	gulp.watch('src/*.html',['html']);
